@@ -14,7 +14,8 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/daily-tech-briefing"
+        "./skills/daily-tech-briefing",
+        "./skills/git-insight"
       ]
     },
     {
@@ -24,6 +25,15 @@
       "strict": false,
       "skills": [
         "./skills/daily-tech-briefing"
+      ]
+    },
+    {
+      "name": "git-insight",
+      "description": "Analyze git commit history into mission-focused activity summaries",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/git-insight"
       ]
     }
   ]

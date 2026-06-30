@@ -24,6 +24,7 @@ Install a specific skill:
 
 ```bash
 npx skills add jassonbla/skills --skill daily-tech-briefing
+npx skills add jassonbla/skills --skill git-insight
 ```
 
 ## Claude Code plugin marketplace
@@ -62,6 +63,24 @@ Install only this skill:
 
 ```bash
 npx skills add jassonbla/skills --skill daily-tech-briefing
+```
+
+### `git-insight`
+
+Analyze git commit history and summarize recent activity from a mission or project perspective.
+
+Contents:
+
+```text
+skills/git-insight/SKILL.md
+skills/git-insight/references/report-template.md
+skills/git-insight/examples/example-report.md
+```
+
+Install only this skill:
+
+```bash
+npx skills add jassonbla/skills --skill git-insight
 ```
 
 ## Repository layout
